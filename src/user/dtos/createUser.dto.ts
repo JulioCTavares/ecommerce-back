@@ -8,4 +8,8 @@ export class CreateUserDto {
   cpf: string;
 
   password: string;
+
+  createdAt: Date;
+
+  updatedAt: Date;
 }
